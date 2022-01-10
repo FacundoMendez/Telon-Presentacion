@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="containerPresentacion">
+        <img class="containerImg telonDer" src="./src/telonDer.png" alt="Telon derecho">
+        <img class="containerImg telonIzq" src="./src/telonIzq.png" alt="Telon izquierdo">
+        <img class="containerImg telonTech" src="./src/telon1.png" alt="Telon techo">
+        <div class="containerImg telonCortina" ></div>
+        <canvas class="webGLed"></canvas>
+
+        <div id='container'>
+            <div id="pic" class="pic"></div>
+            <canvas id="noise" class="ledPantalla noise"></canvas>
+
+            <div class="titleCont">
+                <h1 class="main-title" id="main-title">
+                    <p>Facundo Mendez</p>
+                    <p>Frontend Developer</p>
+                </h1>
+            </div>
+        </div>
+       
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="./three/three.js-master/build/three.min.js"></script>
+
+    <script src="main.js"></script>
+    <script src="./scena/effectLed.js"></script>
+</body>
+</html>
